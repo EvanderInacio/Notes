@@ -1,10 +1,10 @@
 
-export function ButtonText({ title, ...rest }) {
+export function ButtonText({ title, isActive = false, ...rest }) {
   return (
     <button
       type="button"
       {...rest} 
-      className="bg-transparent text-orange-800 border-0 text-base"
+      className={`bg-transparent border-0 text-base ${isActive ? 'text-orange-800' : 'text-gray-400'} `}
     >
       {title}
     </button>

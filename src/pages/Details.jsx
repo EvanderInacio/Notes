@@ -8,10 +8,10 @@ export function Details() {
     <div className="grid w-full h-screen">
       <Header />
 
-      <main className=" overflow-y-scroll py-16 flex justify-around items-center">
+      <main className="relative py-1 flex justify-around items-center">
         <section className="max-w-[550px]">
-          <div className=" my-0 mx-auto flex flex-col">
-            <h1 className="text-4xl font-medium pt-16 mb-6">Introdução ao React</h1>
+          <div className="mx-auto flex flex-col">
+            <h1 className="text-4xl font-medium pt-24 mb-6">Introdução ao React</h1>
 
             <p className="text-base mt-4 text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci

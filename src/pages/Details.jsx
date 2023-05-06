@@ -8,12 +8,12 @@ export function Details() {
     <div className="grid w-full h-screen">
       <Header />
 
-      <main className="relative py-1 flex justify-around items-center">
-        <section className="max-w-[550px]">
+      <main className="relative py-1 flex flex-col lg:flex-row justify-around items-center">
+        <section className="max-w-[550px] max-lg:mb-10">
           <div className="mx-auto flex flex-col">
-            <h1 className="text-4xl font-medium pt-24 mb-6">Introdução ao React</h1>
+            <h1 className=" text-3xl md:text-4xl text-center font-medium pt-24 mb-6">Introdução ao React</h1>
 
-            <p className="text-base mt-4 text-justify">
+            <p className="text-base mx-2 mt-4 text-center lg:text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
               odit natus iusto a sapiente nobis nihil sit impedit non? Eius
               quaerat necessitatibus quod voluptatibus praesentium sit ipsum
@@ -27,14 +27,14 @@ export function Details() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sunt nulla laborum quod unde, dolorem harum optio totam cumque blanditiis saepe tempore eveniet facere expedita aperiam nam eligendi atque ab.
             </p>
 
-            <div className="flex gap-3 mt-20">
+            <div className="flex flex-col lg:flex-row gap-3 mt-20">
               <Button title="Voltar" />
               <Button title="Excluir nota" color="#f5020b" />
             </div>
           </div>
         </section>
 
-        <section>
+        <section className=''>
           <div className="flex flex-col gap-6">
             <Section title="Links úteis">
               <ul className="list-none mt-3 text-white-800">

@@ -4,7 +4,7 @@ import { CgNotes } from 'react-icons/cg'
 
 export function Header() {
   return (
-    <div className="flex flex-col max-md:mt-2 sm:flex-row max-sm:gap-5 max-sm:pb-5 sm:justify-between h-40 sm:h-[105px] w-full border-b-2 border-background-700 px-20 items-center">
+    <div className="bg-background-900 flex flex-col max-md:mt-2 sm:flex-row max-sm:gap-5 max-sm:pb-5 sm:justify-between h-40 sm:h-[105px] w-full border-b-2 border-background-800 px-20 items-center">
       <div className="flex items-center">
         <img
           className="w-14 h-14 rounded-full"

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #312E38;
+  background: #1f1d24;
   color: #fff;
   font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -28,8 +28,8 @@ button:hover, a:hover {
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 0.5rem;
-  background-color: #FF9000;
+  background-color: #05f086;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color: #FF9000;
+  background-color: #0af088;
 }

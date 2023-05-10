@@ -6,7 +6,7 @@ import { Tag } from '../components/Tag'
 export function Details() {
   return (
     <div className="grid w-full h-screen">
-      <Header />
+      <Header disabled />
 
       <main className="relative py-1 flex flex-col lg:flex-row justify-around items-center">
         <section className="max-w-[550px] max-lg:mb-10">
@@ -29,7 +29,7 @@ export function Details() {
 
             <div className="flex flex-col lg:flex-row gap-3 mt-20">
               <Button title="Voltar" />
-              <Button title="Excluir nota" color="#f5020b" />
+              <Button title="Excluir nota" color='#FF002E' />
             </div>
           </div>
         </section>

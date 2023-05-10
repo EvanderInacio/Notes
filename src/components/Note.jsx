@@ -3,7 +3,7 @@ import { Tag } from './Tag'
 export function Note({ data, ...rest }) {
   return (
     <button
-      className="w-full bg-background-700 border-none rounded-xl p-[22px] mb-4"
+      className="w-full bg-background-800 border-none rounded-xl p-[22px] mb-4"
       {...rest}
     >
       <h1 className="flex-1 text-left font-bold text-2xl text-white-800 ">

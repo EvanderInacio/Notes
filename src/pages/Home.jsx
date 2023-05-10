@@ -7,7 +7,7 @@ import { Section } from '../components/Section'
 
 export function Home() {
   return (
-    <main className="w-full h-screen grid bg-background-800">
+    <main className="w-full h-screen grid bg-background-900">
       <Header />
       <section className="grid sm:grid-cols-[210px_auto] md:grid-cols-[260px_auto]">
         <Dash />

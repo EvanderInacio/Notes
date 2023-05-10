@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         background: {
-          900: '#232129',
-          800: '#312E38',
+          900: '#1f1d24',
+          800: '#27272e',
           700: '#3E3B47'
         },
         gray: {
@@ -18,6 +18,9 @@ module.exports = {
         },
         orange: {
           800: '#FF9000'
+        },
+        emerald: {
+          900: '#05f086'
         },
         red: {
           900: '#FF002E'

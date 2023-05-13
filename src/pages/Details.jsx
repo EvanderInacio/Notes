@@ -1,17 +1,30 @@
-import { Button } from '../components/Button'
-import { Header } from '../components/Header'
 import { Section } from '../components/Section'
 import { Tag } from '../components/Tag'
+import { AiOutlineArrowLeft } from 'react-icons/ai'
+import { RiDeleteBin6Line } from 'react-icons/ri'
 
 export function Details() {
   return (
     <div className="grid w-full h-screen">
-      <Header disabled />
+      <header className='w-full h-40 bg-background-800 flex items-center justify-center'>
+        <div className='w-screen max-w-6xl h-auto bg-background-750 mt-40 rounded-2xl pb-20'>
+          <div className='flex justify-between pt-4'>
+            <a href="" className='pl-4 flex items-center gap-1 text-emerald-900'><AiOutlineArrowLeft /> Voltar</a>
 
-      <main className="relative py-1 flex flex-col lg:flex-row justify-around items-center">
+            <a href="" className='pr-4 flex items-center gap-1 text-red-900 hover:text-red-800'><RiDeleteBin6Line /> Excluir Nota</a>
+          </div>
+
+          <h2 className="text-4xl text-center font-medium pt-5">
+            Introdução ao React
+          </h2>
+
+        </div>
+      </header>
+
+      <main className="relative pt-10 pb-20 flex flex-col lg:flex-row justify-around items-center mt-32">
         <section className="max-w-[550px] max-lg:mb-10">
           <div className="mx-auto flex flex-col">
-            <h1 className=" text-3xl md:text-4xl text-center font-medium pt-24 mb-6">Introdução ao React</h1>
+            
 
             <p className="text-base mx-2 mt-4 text-center lg:text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
@@ -26,11 +39,6 @@ export function Details() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sunt nulla laborum quod unde, dolorem harum optio totam cumque blanditiis saepe tempore eveniet facere expedita aperiam nam eligendi atque ab.
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sunt nulla laborum quod unde, dolorem harum optio totam cumque blanditiis saepe tempore eveniet facere expedita aperiam nam eligendi atque ab.
             </p>
-
-            <div className="flex flex-col lg:flex-row gap-3 mt-20">
-              <Button title="Voltar" />
-              <Button title="Excluir nota" color='#FF002E' />
-            </div>
           </div>
         </section>
 

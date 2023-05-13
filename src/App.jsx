@@ -1,15 +1,12 @@
-import { Details } from './pages/Details'
-import { Home } from './pages/Home'
-import { New } from './pages/New'
-import { Profile } from './pages/Profile'
-import { Signin } from './pages/Signin'
-import { Signup } from './pages/Signup'
+import { BrowserRouter } from 'react-router-dom'
+import { AppRoutes } from './routes/app.routes'
+import { AuthRoutes } from './routes/auth.routes'
 
 function App() {
   return (
-    <>
-      <New />
-    </>
+    <BrowserRouter>
+      <AuthRoutes />
+    </BrowserRouter>
   )
 }
 

@@ -3,7 +3,7 @@ import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 import { FiMail, FiLock } from 'react-icons/fi'
 
-export function Signin() {
+export function SignIn() {
   return (
     <div className="h-full flex items-center justify-center mt-14">
       <form className="px-2 flex flex-col justify-center items-center text-center">
@@ -22,7 +22,7 @@ export function Signin() {
 
         <span className='mt-12 text-gray-400'>Não tem uma conta?</span>
         <a 
-          href="#" 
+          href="/register" 
           className='text-emerald-900 border-[2px] border-gray-600 rounded-md mt-1 p-2 hover:border-emerald-900 brightness-100'
         >
           Criar conta

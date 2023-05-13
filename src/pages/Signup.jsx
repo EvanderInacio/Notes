@@ -3,7 +3,7 @@ import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 import { FiUser, FiMail, FiLock } from 'react-icons/fi'
 
-export function Signup() {
+export function SignUp() {
   return (
     <div className="h-full flex items-center justify-center mt-14">
       <form className="px-2 flex flex-col justify-center items-center text-center">
@@ -22,7 +22,7 @@ export function Signup() {
         <Button title="Cadastrar" />
 
         <a 
-          href="#" 
+          href="/" 
           className='mt-12 text-emerald-900'
         >
           Voltar para o login

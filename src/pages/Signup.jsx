@@ -2,6 +2,7 @@ import { CgNotes } from 'react-icons/cg'
 import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 import { FiUser, FiMail, FiLock } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export function SignUp() {
   return (
@@ -21,12 +22,12 @@ export function SignUp() {
 
         <Button title="Cadastrar" />
 
-        <a 
-          href="/" 
+        <Link
+          to="/" 
           className='mt-12 text-emerald-900'
         >
           Voltar para o login
-        </a>
+        </Link>
       </form>
     </div>
   )

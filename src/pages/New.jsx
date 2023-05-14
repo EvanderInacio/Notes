@@ -4,19 +4,20 @@ import { Input } from '../components/Input'
 import { Textarea } from '../components/Textarea'
 import { NoteItem } from '../components/NoteItem'
 import { Button } from '../components/Button'
+import { Link } from 'react-router-dom'
 
 export function New() {
   return (
     <div className="w-full h-screen grid grid-rows-[105px_auto]">
       <Header disabled />
 
-      <main>
+      <main className='max-sm:px-2 max-sm:py-10'>
         <form className="max-w-xl m-[38px_auto]">
           <header className="flex items-center justify-between mb-9">
             <h1 className="text-xl">Criar nota</h1>
-            <a className=" text-gray-100 flex items-center gap-1" href="/">
+            <Link className=" text-gray-100 flex items-center gap-1" to="/">
               <AiOutlineArrowLeft /> Voltar
-            </a>
+            </Link>
           </header>
 
           <Input placeholder="Título" />

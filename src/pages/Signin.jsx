@@ -2,6 +2,7 @@ import { CgNotes } from 'react-icons/cg'
 import { Button } from '../components/Button'
 import { Input } from '../components/Input'
 import { FiMail, FiLock } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export function SignIn() {
   return (
@@ -21,12 +22,12 @@ export function SignIn() {
         <Button title="Entrar" />
 
         <span className='mt-12 text-gray-400'>Não tem uma conta?</span>
-        <a 
-          href="/register" 
+        <Link 
+          to="/register" 
           className='text-emerald-900 border-[2px] border-gray-600 rounded-md mt-1 p-2 hover:border-emerald-900 brightness-100'
         >
           Criar conta
-        </a>
+        </Link>
       </form>
     </div>
   )
